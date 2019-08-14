@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
+
 body {
   background-color: #ffc90d;
   color: #291f1f;
   text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.heading {
+  font-size: 3em;
+  font-weight: 900; 
 }
 
 .line {
   fill: none;
   stroke: #fff;
-  stroke-width: 3px;
+  stroke-width: 5px;
+  transition: stroke 0.2s;
+}
+.line:hover {
+  stroke: #291f1f;
 }
 
 #forecast {
