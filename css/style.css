@@ -1,0 +1,10 @@
+body {
+  background-color: #ffc90d;
+  color: #291f1f;
+}
+
+.line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3px;
+}
